@@ -1,0 +1,25 @@
+if SHIELD_FOCK_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "0 FOCKs left"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+
+# if SHIELD_FOCK_RIGHT
+
+# config ZMK_KEYBOARD_NAME
+#     default "0 FOCKs right"
+#
+# endif 
+
+
+if SHIELD_FOCK_LEFT || SHIELD_FOCK_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

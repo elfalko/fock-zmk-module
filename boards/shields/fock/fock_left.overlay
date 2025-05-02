@@ -1,0 +1,15 @@
+// fock_left.overlay
+
+#include "fock.dtsi" 
+
+&kscan0 {
+    col-gpios =
+        <&pro_micro 9 GPIO_ACTIVE_HIGH>, // outer  0
+        <&pro_micro 8 GPIO_ACTIVE_HIGH>, // pinky  1
+        <&pro_micro 7 GPIO_ACTIVE_HIGH>, // ring   2
+        <&pro_micro 6 GPIO_ACTIVE_HIGH>, // middle 3
+        <&pro_micro 5 GPIO_ACTIVE_HIGH>, // index  4
+        <&pro_micro 4 GPIO_ACTIVE_HIGH>, // inner  5
+        <&pro_micro 10 GPIO_ACTIVE_HIGH> // thumb  6
+        ;
+};

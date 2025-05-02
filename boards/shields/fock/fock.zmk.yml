@@ -1,0 +1,11 @@
+file_format: "1"
+id: fock
+name: FoCK
+type: shield
+url: https://github.com/elfalko/FOCK
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - fock_left
+  - fock_right

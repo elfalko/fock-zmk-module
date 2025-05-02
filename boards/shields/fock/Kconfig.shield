@@ -1,0 +1,4 @@
+config SHIELD_FOCK_LEFT
+    def_bool $(shields_list_contains,fock_left)
+config SHIELD_FOCK_RIGHT
+    def_bool $(shields_list_contains,fock_right)
